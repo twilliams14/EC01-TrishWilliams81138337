@@ -1,0 +1,53 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #F67280;
+    background-color: #355C7D;
+}
+
+section {
+    text-align: center;
+}
+
+.gameTitle {
+    font-size: 100px;
+    margin:10px auto;
+}
+
+.gameContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin:10px auto;
+    color: #C06C84;
+    background-color: #F8B195;
+}
+
+.cell {
+    width:98px;
+    height:100px;
+    cursor:pointer;
+    font-size:60px;
+    line-height: 100px;
+    border: 2px solid;
+}
+
+.gameStatus {
+    font-size:50px;
+    margin:20px auto;
+}
+
+.gameRestart {
+    width:200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #6C5B7B;
+    color: #C06C84;
+    border: 2px solid #C06C84;
+}
+
+.gameRestart:hover {
+    background-color: #F67280;
+    color: #6C5B7B;
+    border: 2px solid #6C5B7B;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
